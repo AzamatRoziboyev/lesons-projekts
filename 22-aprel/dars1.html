@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+        }
+
+        h1 {
+            color: white;
+            animation-name: AZAMAT;
+            animation-delay: 2S;
+            animation-duration: 4S;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes AZAMAT {
+            25% {
+                color: aqua;
+                transform: translate(1000px);
+            }
+
+            50% {
+                color: rgb(252, 252, 255);
+                transform: translateY(500px);
+                font-size: 50px;
+                font-weight: 500;
+            }
+
+            75% {
+                color: brown;
+                transform: translateX(1000px);
+                font-size: 15px;
+
+            }
+
+            100% {
+                color: yellow;
+                transform: translateY(500px);
+                font-size: 100px;
+                font-weight: 900;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>no singnal</h1>
+
+    </div>
+</body>
+
+</html>
