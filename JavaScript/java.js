@@ -23,9 +23,34 @@ console.log(qoldiq);
 
 //  birga oshirish va kamayish
 
-console.log(son1++);
+console.log(++son1);
 // console.log(son1--)
-console.log(son1);
+// console.log(son1);
+
+
+// ===ture-togri
+// ===false-notogri
+
+let a = "4"
+let b = 3
+let c = "suxrobjon nagap"
+let togri = true
+let notogri = false
+console.log(a == a);
+console.log(a === b);
+
+// =====ma'lumotlar turini tekshirish
+console.log(typeof (a))
+console.log(typeof (b))
+console.log(typeof (c));
+console.log(typeof (togri));
+console.log(typeof (notogri));
+
+
+
+
+
+
 
 
 
